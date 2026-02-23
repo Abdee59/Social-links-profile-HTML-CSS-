@@ -1,0 +1,110 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* optionnel mais utile pour que le body prenne toute la hauteur */
+}
+
+.card img {
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+}
+
+.card__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 10px;
+}
+.main-container {
+  background-color: #141414;
+  min-height: 100vh; /* prend toute la hauteur de l'écran */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 100px;
+  max-height: 450px; /* hauteur max, le contenu ne grandit pas au-delà */
+}
+
+.card__content--second h2 {
+  font-size: 16px;
+  padding-bottom: 5px;
+  color: grey;
+}
+
+.card__content--first p {
+  font-size: 12px;
+  color: #c4f82a; /* le fond s'adapte au texte */
+  padding: 0px 18px; /* optionnel : espace intérieur */
+}
+.card__content--first h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  margin-left: 60px;
+}
+
+.footer {
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+.footer1,
+.footer2,
+.footer3,
+.footer4,
+.footer5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #333333;
+  gap: 15px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  height: 33px;
+}
+
+.footer1:hover,
+.footer2:hover,
+.footer3:hover,
+.footer4:hover,
+.footer5:hover {
+  background-color: #c4f82a;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: black;
+}
